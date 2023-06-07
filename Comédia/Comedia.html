@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Comédia</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><!--bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"> <!--bootstrap-->
+    <link rel="stylesheet" href="styleComedia.css">
+	<link rel="stylesheet" href="btnpesquisa.js">
+
+</head>
+	
+
+</head>
+<body>
+	<h1>Filmes de Comédia</h1>
+ <div class="film">
+	<h2>Eu me importo(2021)</h2>
+	<p>Marla Grayson trabalha como guardiã legal de idosos que não podem se cuidar sozinhos. Ela e sua parceira Fran aplicam golpes nesses clientes, com a ajuda do diagnóstico da Dra. Karen Amos. Mas as coisas começam a dar muito errado quando o alvo perfeito, Jennifer Peterson, uma senhora de 70 anos que não tem nenhum parente, não é o que elas acreditavam ser.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+  <div class="film">
+    	<h2>Ted(2012)</h2>
+	<p>É Natal e o pequeno John tem apenas um pedido a fazer ao Papai Noel: que seu ursinho de pelúcia, Ted, ganhe vida. O garoto fica surpreso ao perceber que seu pedido foi atendido e logo eles se tornam grandes amigos. John e Ted crescem juntos e o urso de pelúcia se torna bastante mal humorado com a idade. Já adulto, John precisa decidir entre manter a amizade de infância ou o namoro com Lori Collins.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+<div class="film">
+	<h2>Exército de ladrões: Invasão da Europa (2021)</h2>
+	<p>Funcionário de um banco de cidade pequena, Dieter é puxado para uma aventura única ao ser recrutado por uma mulher misteriosa para se juntar à equipe dos criminosos mais procurados da Interpol, na missão de executar uma sequência de assaltos impossíveis através de cofres da Europa.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+<div class="film">
+	<h2>Babilônia (2022)</h2>
+	<p>Durante a era de ouro de Hollywood, em Los Angeles da década de 1920, um jovem latino está determinado a conseguir uma carreira enquanto o cinema entra em fase de transição dos filmes mudos para produções com falas.</p>
+<div class="stars">
+<span class="active">★</span>
+<span class="active">★</span>
+
+</div>
+
+</div>
+</body>
+</html>
+
+<div class="film">
+	<h2>Brincando com fogo (2019)</h2>
+	<p>Jake Carson é um bombeiro extremamente dedicado e rigoroso, que não aceita que algo ocorra fora das regras impostas pela corporação. Ao resgatarem as crianças Bryan, Zoey e Will .Jake e seus companheiros de trabalho enfrentam um enorme desafio: como não conseguem localizar os pais do trio, precisam eles mesmos cuidar das crianças, mesmo sem ter o menor cacoete para a função.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		
+	</div>
+</div>
+
+<!-- <div class="comment-area">
+	<textarea class="commentinput" placeholder="Deixe sua opnião..."></textarea>
+	<button class="btnpublicar">Publicar</button>
+  </div>
+  <div id="commentoutput"></div> -->
+
+  <div class="comment-area">
+	<h1>Deixe sua opnião</h1>
+	<label for="text" class="opniao">Nome do Filme</label>
+	<textarea class="commentinput1" placeholder="Exemplo: Free Guy"></textarea>
+	<label for="text" class="opniao">Sinopse</label>
+	<textarea class="commentinput2" onfocus="this.value='';" placeholder="Exemplo: Um caixa de banco preso a uma entediante rotina tem sua vida virada... "></textarea>
+	<label for="text" class="opniao">Número de estrelas</label>
+	<textarea class="commentinput3" placeholder="Exemplo: 5 estrelas"></textarea>
+
+	<button  class="btnpublicar" data-toggle="modal" data-target="#exampleModalCenter" onclick="limparTextArea()"> Publicar </button> 
+
+	<button class="btnvoltar"><a href="../Categorya.html">VOLTAR</a></button>
+
+  </div>
+  <div id="commentoutput"></div>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Obrigado por fazer parte dessa comunidade.</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  Sua avaliação foi enviada para a nossa equipe de análise!!
+		</div>
+		<div class="modal-footer">
+		  <button type="button" id="botao" data-dismiss="modal"> Fechar </button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <script>
+
+	// limpar botao
+	$(document).ready( function() {
+		$('button').click(function(){
+			$('textarea').val('');
+		});
+	 });
+	
+	</script>
+
+
+
+</body>
+</html>

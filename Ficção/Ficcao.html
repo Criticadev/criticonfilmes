@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Ficção</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><!--bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"> <!--bootstrap-->
+    <link rel="stylesheet" href="styleFiccao.css">
+	<link rel="stylesheet" href="btnpesquisa.js">
+
+</head>
+	
+
+</head>
+<body>
+	<h1>Filmes de Ficção</h1>
+ <div class="film">
+	<h2>Interstellar (2014)</h2>
+	<p>A ação acontece em 2067, quando a Terra já está chegando ao limite de seus recursos naturais e a humanidade corre riscos de extinção. O protagonista, Cooper, integra uma equipe de astronautas que partem em busca de um novo planeta para abrigar os seres humanos.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+  <div class="film">
+    	<h2>O Império Contra-ataca (1980)</h2>
+	<p>A história acontece algum tempo depois da Guerra nas Estrelas, quando Darth Vader governa o Império Galático e persegue os membros da Aliança Rebelde. Enquanto isso, Mestre Yoda treina o jovem Luke Skywalker que aprende a usar "a Força" e se prepara para o confronto.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+<div class="film">
+	<h2>De Volta para o Futuro (1985)</h2>
+	<p>Marty McFly é um adolescente que viaja no tempo usando um DeLorean DMC-12 modificado por um amigo cientista, Dr. Emmett Brown. Quando vai parar no passado, ele comete um erro e acaba separando aqueles que, no futuro, seriam seus pais.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+<div class="film">
+	<h2>O Origem (2010)</h2>
+	<p> O filme de ação e ficção científica é passado em um mundo onde é possível invadir os sonhos de outras pessoas e até implantar ideias nas suas mentes. Cobb, o protagonista, é um famoso bandido, especialista nesse tipo de espionagem, que tem que fugir do país porque está sendo perseguido pela polícia. Para poder rever a família, ele aceita uma missão final que é ainda mais perigosa que as anteriores.</p>
+<div class="stars">
+<span class="active">★</span>
+<span class="active">★</span>
+
+</div>
+
+</div>
+</body>
+</html>
+
+<div class="film">
+	<h2>A.I.: Inteligência Artificial (2001)</h2>
+	<p>Passada num futuro onde humanos e androides habitam o planeta, a história se foca em David, um garoto robô. Para ser adotado por uma família, ele foi criado à imagem de seu "irmão" que se encontrava em estado vegetativo. No enredo devastador, o menino que é dotado de inteligência e sentimentos, descobre emoções tão humanas quanto a dor e a esperança.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		
+	</div>
+</div>
+
+<!-- <div class="comment-area">
+	<textarea class="commentinput" placeholder="Deixe sua opnião..."></textarea>
+	<button class="btnpublicar">Publicar</button>
+  </div>
+  <div id="commentoutput"></div> -->
+
+  <div class="comment-area">
+	<h1>Deixe sua opnião</h1>
+	<label for="text" class="opniao">Nome do Filme</label>
+	<textarea class="commentinput1" placeholder="Exemplo: A Chegada"></textarea>
+	<label for="text" class="opniao">Sinopse</label>
+	<textarea class="commentinput2" onfocus="this.value='';" placeholder="Exemplo: Naves alienígenas chegaram às principais cidades do mundo... "></textarea>
+	<label for="text" class="opniao">Número de estrelas</label>
+	<textarea class="commentinput3" placeholder="Exemplo: 5 estrelas"></textarea>
+
+	<button  class="btnpublicar" data-toggle="modal" data-target="#exampleModalCenter" onclick="limparTextArea()"> Publicar </button> 
+
+	<button class="btnvoltar"><a href="../Categorya.html">VOLTAR</a></button>
+
+  </div>
+  <div id="commentoutput"></div>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Obrigado por fazer parte dessa comunidade.</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  Sua avaliação foi enviada para a nossa equipe de análise!!
+		</div>
+		<div class="modal-footer">
+		  <button type="button" id="botao" data-dismiss="modal"> Fechar </button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <script>
+
+	// limpar botao
+	$(document).ready( function() {
+		$('button').click(function(){
+			$('textarea').val('');
+		});
+	 });
+	
+	</script>
+
+
+
+</body>
+</html>

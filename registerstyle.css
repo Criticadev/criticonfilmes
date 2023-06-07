@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap');
+
+
+body{
+    margin: 0;
+    background-color:rgb(48, 0, 0);
+}
+.fullscreen{
+    justify-content: space-around;
+}
+
+form {
+    margin: 100%;
+
+}
+
+.cadastrar{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    margin: 2vh 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: rgb(116, 95, 1);
+    border-radius: none;
+    letter-spacing: 3px;
+    
+}
+
+label{
+    text-align: center;
+    display: flex;
+}
+
+.nome{
+    margin: 10px;
+    display: flex;
+
+}
+
+.cardregister{
+    font-weight: 700;
+    font-size: 120%;
+    font-family: 'Exo', sans-serif;
+    margin: 14vh 37vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 1px;
+    background-color: rgb(116, 95, 1);
+    border-radius: 20px;
+    letter-spacing: 1px;
+    box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.575);
+}
+
+input{
+   
+    font-size:  'Exo', sans-serif;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    /* background-color: rgb(85, 79, 0); */
+    color: rgb(70, 65, 0);
+    font-size: 12pt;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.575);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btnsalvar{
+    font-size: 120%;
+    font-family: 'Exo', sans-serif;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow:3px 5px 5px rgba(0, 0, 0, 0.575);
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    margin-left: 3%;
+
+}
+
+@media only screen and (max-width: 1700px) {
+    .cardregister{
+        width: 30%;
+        margin-left:28%;
+    }
+    
+}
+
+@media only screen and (max-width: 1600px) {
+    .cardregister{
+        width: 30%;
+        margin-left:28%;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    .cardregister{
+        width: 37%;
+        margin-left: 30%;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .cardregister{
+        width: 36%;
+        margin-left: 30%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .cardregister{
+        width: 90%;
+        margin-left: 5%;
+        /* margin-top: 21%; */
+    }
+    
+}

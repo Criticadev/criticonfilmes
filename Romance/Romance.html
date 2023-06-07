@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes de Romance</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><!--bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"> <!--bootstrap-->
+    <link rel="stylesheet" href="styleRomance.css">
+	<link rel="stylesheet" href="btnpesquisa.js">
+
+</head>
+	
+
+</head>
+<body>
+	<h1>Filmes de Romance</h1>
+ <div class="film">
+	<h2> Nasce uma Estrela (2019)</h2>
+	<p>Um dia, após deixar uma apresentação, ele para em um bar para beber algo. É quando conhece Ally (Gaga), uma insegura cantora que ganha a vida trabalhando em um restaurante. Jackson se encanta pela mulher e seu talento, decidindo acolhê-la debaixo de suas asas. Ao mesmo tempo em que Ally ascende ao estrelato, Jackson vive uma crise pessoal e profissional devido aos problemas com o álcool.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+  <div class="film">
+    	<h2>Como eu era antes de você</h2>
+	<p>“Will (Sam Claflin) é um jovem rico e bem-sucedido, até sofrer um grave acidente que o deixa preso a uma cadeira de rodas. Profundamente depressivo, sua família contrata Louisa (Emilia Clarke) para fazer companhia a ele. Ela sempre levou uma vida modesta, com dificuldades financeiras e problemas no trabalho, mas está disposta a provar para Will que ainda existem razões para viver.”</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+<div class="film">
+	<h2>Um Reino Unido - 2016</h2>
+	<p>Um Reino Unido conta a história real de Ruth Williams, uma mulher britânica que se apaixonou por Seretse Khama, o rei de uma tribo importante do Botswana. Tinha tudo para ser uma história de Cinderela, exceto… o racismo. A luta do casal quebrou muitas barreiras sociais. Um belo exemplo de como o amor é mais forte que o preconceito.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+		<span class="active">&#9733;</span>
+	</div>
+</div>
+
+<div class="film">
+	<h2>Professora sem Classe (2011) </h2>
+	<p> Para a maioria, o ensino é uma profissão honrosa, exceto para Elizabeth. A desbocada e embriagada professora mal pode esperar para se casar com um homem rico e largar o emprego, mas assim que seu namorado a deixa, ela precisa repensar sobre seus planos. Quando Scott Delacorte, um professor substituto bonito e rico chega à escola, Elizabeth encontra nele uma saída para sua situação, mas terá de enfrentar a forte concorrência de Amy, uma colega popular e alegre.</p>
+<div class="stars">
+<span class="active">★</span>
+<span class="active">★</span>
+
+</div>
+
+</div>
+</body>
+</html>
+
+<div class="film">
+	<h2>Norbit, Uma Comédia de Peso (2007) </h2>
+	<p> Desde que foi abandonado em um orfanato, Norbit sempre teve uma vida muito dura. Agora, casado com Rasputia, sua vida é ainda pior. Mas tudo muda quando sua antiga namorada volta à cidade.</p>
+	<div class="stars">
+		<span class="active">&#9733;</span>
+		
+	</div>
+</div>
+
+<!-- <div class="comment-area">
+	<textarea class="commentinput" placeholder="Deixe sua opnião..."></textarea>
+	<button class="btnpublicar">Publicar</button>
+  </div>
+  <div id="commentoutput"></div> -->
+
+  <div class="comment-area">
+	<h1>Deixe sua opnião</h1>
+	<label for="text" class="opniao">Nome do Filme</label>
+	<textarea class="commentinput1" placeholder="Exemplo: Continência ao Amor"></textarea>
+	<label for="text" class="opniao">Sinopse</label>
+	<textarea class="commentinput2" onfocus="this.value='';" placeholder="Exemplo: Uma cantora se casa por conveniência com um militar que está prestes a ir... "></textarea>
+	<label for="text" class="opniao">Número de estrelas</label>
+	<textarea class="commentinput3" placeholder="Exemplo: 3 estrelas"></textarea>
+
+	<button  class="btnpublicar" data-toggle="modal" data-target="#exampleModalCenter" onclick="limparTextArea()"> Publicar </button> 
+
+	<button class="btnvoltar"><a href="../Categorya.html">VOLTAR</a></button>
+
+  </div>
+  <div id="commentoutput"></div>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Obrigado por fazer parte dessa comunidade.</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  Sua avaliação foi enviada para a nossa equipe de análise!!
+		</div>
+		<div class="modal-footer">
+		  <button type="button" id="botao" data-dismiss="modal"> Fechar </button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <script>
+
+	// limpar botao
+	$(document).ready( function() {
+		$('button').click(function(){
+			$('textarea').val('');
+		});
+	 });
+	
+	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registerstyle.css">
+    <title>Cadastrar Usuário</title>
+</head>
+<body>
+    <!-- <div class="fullscreen">
+        <div class="cardregister">
+        <h1>Cadastrar</h1>
+        <label for="nome">Digite seu nome completo</label><br>
+        <input type="text" class="nome"><br>
+        <label for="email">Digite seu Email</label><br>
+        <input type="text" class="nome"><br>
+        <label for="senha">Digite sua senha</label><br>
+        <input type="password" class="nome"><br>
+        <label for="confirsenha">Confirme sua Senha</label><br>
+        <input type="password" class="nome"><br>
+        <a href=""><button class="btnsalvar">Salvar</button></a>
+
+        </div>
+    </div> -->
+
+    <form class="cardregister" autocomplete="off" action="cadastro.php" method="post">
+        <fieldset>
+          <legend class="cadastrar">Cadastrar</legend>
+          <label>Digite o nome completo</label>
+          <input class="nome" type="text" name="usuario"><br>
+          <label>Digite seu Email</label>
+          <input class="nome" type="text" name="email"><br>
+          <label>Digite a sua senha</label>
+          <input class="nome" type="password" name="senha"><br>
+          <input class="btnsalvar" type="submit" value="Salvar">
+        </fieldset>
+      </form>
+
+</body>
+</html>

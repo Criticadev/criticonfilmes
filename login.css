@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap');
+
+
+body{
+    margin: 0;   
+    background-color: #300000;
+}
+
+p{
+    font-size: 100%;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+    width: 100%;
+    margin-left: 2px;
+    /* font-size: 150%; */
+    color: rgb(175, 164, 1); 
+    font-family: 'Exo', sans-serif;
+}
+
+.img-sofa{
+    width: 30vw;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    text-shadow: 4px 4px 4px black;
+    color: rgb(175, 164, 1);
+    font-weight: 800;
+}
+/* lado direito da tela, dados de login */
+
+::placeholder{
+    font-family: 'Exo', sans-serif;
+}
+
+h1{
+    font-family: 'Exo', sans-serif;
+}
+.usuario{
+    font-family: 'Exo', sans-serif;
+    text-shadow: 1px 2px 5px black;
+    color:rgb(0, 0, 0) ;
+    font-weight: 800;
+    margin: 4%;
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.rigth-login{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    background-color: rgb(116, 95, 1);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 10px 50px rgba(0, 0, 0, 0.329);
+}
+
+.card-login > h1{
+    text-shadow: 1px 2px 5px black;
+    color:rgb(0, 0, 0) ;
+    font-weight: 800;
+    
+}
+
+.textfield{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content:center ;
+    margin: 10px;
+    
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    /* background-color: rgb(85, 79, 0); */
+    color: rgb(70, 65, 0);
+    font-size: 12pt;
+    box-shadow: 0px 0px 6px black;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label{
+    padding-bottom: 2%;
+    font-family: 'Exo', sans-serif;;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    color: rgb(238, 238, 238);
+}
+
+.textfield > input::placeholder{
+    font-family: 'Exo', sans-serif;
+    color: black;
+    
+}
+
+.btnentrar{
+    color: rgb(238, 238, 238);
+    background-color: black;
+    font-family: 'Exo', sans-serif;
+    font-size: 110%;
+    width: 9vw;
+    padding: 13px 0px;
+    margin: 10% 18%;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 0px 30px black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.cadastro{
+    color: black;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+
+@media only screen and (max-width: 950px){
+    a > .btnsalvar{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .main-login{
+        flex-direction: column;
+    }   
+
+    .titu{
+        margin-top: 50%
+    }
+
+    .card-login{
+        width: 170px;
+    }
+
+    a > .btnentrar{
+        width: 70%;
+        height: 60px;
+    }
+
+    .titu{
+        padding-top: 120%;
+    }
+}

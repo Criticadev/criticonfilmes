@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap');
+
+
+  @keyframes mymotion {
+    from {left: -100vw;}
+    to {left:0px;}
+  }
+  
+.borda{
+    border: none;
+}
+
+body{
+    margin: 0;
+    /* background-image: url(img/img2.jpg); *//* imagem de fundo da parte superior  */ 
+    background-color: rgb(48, 0, 0);
+    background-repeat: no-repeat;
+
+}
+
+
+.img1{
+    position: relative;
+    animation: mymotion 6s  normal;
+    max-width: 100%;
+}
+
+
+
+h1{
+    width: 90%;
+    /* font-size: 240%; */
+    font-family:'Exo', sans-serif ;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-shadow: 0px 1px 1px rgb(165, 161, 99);
+    /* position: absolute; */
+}
+
+.full-screen {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+ .left-screen{
+      display: flex;
+       flex-direction:column;
+}
+.left-screen > .btn:hover {
+    opacity: 1.0;
+}
+
+.left-screen > a > .btn{
+    
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 10vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+ } 
+
+.center-screen{
+      display: flex;
+       flex-direction:column;
+
+}
+
+.center-screen > .btn:hover {
+    opacity: 1.0;
+}
+
+.center-screen > a > .btn{
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 10vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+}
+
+.right-screen{
+      display: flex;
+       flex-direction:column;
+}
+
+.right-screen >.btn:hover{
+    opacity: 1.0;
+}
+
+.right-screen > a > .btn{
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 10vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+}
+
+@media only screen and (max-width: 1000px){
+    
+
+    .left-screen > .btn{
+        width: 100%;
+    }
+
+    .center-screen > .btn{
+        width: 100%;
+    }
+
+    .right-screen > .btn{
+        width: 100%;
+    }
+}
