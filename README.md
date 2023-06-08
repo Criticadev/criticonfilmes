@@ -7,7 +7,7 @@ Desenvolvido para usuarios se cadastrem e darem suas opnioes de filmes que ja as
 Um ambiente de diversas opnioes, gostos ... para todos os tipos.
 
 ## Composição do projeto
-O projeto é composto por um site com login e cadastro, painel de seleção de categorias que leva a informações dos filmes relacionados com a possibilidade de enviar sua própria crítica de um filme, banco de dados. 
+O projeto é composto por um site com login e cadastro, painel de seleção de categorias que leva a informações dos filmes relacionados com a possibilidade de enviar sua própria crítica de um filme, banco de dados e as linguagens de progração usadas foram HTML, CSS e PHP. <gr>
 O serviço de hospedagem do site é o Honstinger.
 
 ## Nome e RA dos integrantes:
