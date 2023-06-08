@@ -1,10 +1,8 @@
-# BEM VINDO AO REPOSITÓRIO DO PROJETO CRITICON! - PROJETO PRÁTICO EM SISTEMAS.
+# BEM VINDO AO REPOSITÓRIO DO PROJETO CRITICON - PROJETO PRÁTICO EM SISTEMAS.
 Este é o repositório do projeto prático em sistemas da turma de quarta-Feira (Pré-aula) período noturno, professor Daniel Ferreira. 
 
-## criticon
-Nosso website que foi nomeado de "Criticonfilmes" é um demonstrativo de opniões cinematrográficas.
-Desenvolvido para usuarios se cadastrem e darem suas opnioes de filmes que ja assistiram e tambem buscarem opnioes de fimes não assistidos de outros usuarios que ja obteram cadastro e deram sua opniao.
-Um ambiente de diversas opnioes, gostos ... para todos os tipos.
+## CritiCon
+Nosso website nomeado "Criticonfilmes", é um demonstrativo de opiniões cinematográficas. Desenvolvido para usuários se cadastrem e darem suas opiniões de filmes, que já tenham assistido e também buscarem por opiniões de filmes não assistidos; que outros usuários, interagindo com a plataforma, puderam contribuir. Um ambiente de múltiplas interpretações. Para todos os tipos de gosto.
 
 ## Link de acesso ao site:
 - https://criticonfilmes.online/
@@ -13,7 +11,7 @@ Um ambiente de diversas opnioes, gostos ... para todos os tipos.
 O projeto é composto por um site com login e cadastro, painel de seleção de categorias que leva a informações dos filmes relacionados com a possibilidade de enviar sua própria crítica de um filme, banco de dados e as linguagens de progração usadas foram HTML, CSS e PHP. <gr>
 O serviço de hospedagem do site é o Honstinger.
 
-## Nome e RA dos integrantes:
+## Nome e RA dos integrantes
 Marcos Durval ________________ RA: 3022105729 <br>
 Pablo Henrique _______________ RA: 3022103977 <br>
 Tiago Carneiro Gomes ________ RA: 3022106060 <br>
